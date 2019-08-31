@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+ext/academicons-1.8.6/
