@@ -6,7 +6,7 @@ categories: proofs science perception
 ---
 
 
-Inspired by the article 'The mechanistic foundation of Weber's law' ([Pardo-Vazquez et al., Nature, 2019][pv]), I decided to derive the implications of Weber's law in the coding of stimuli assuming a drift-difussion model. 
+After reading the article 'The mechanistic foundation of Weber's law' ([Pardo-Vazquez et al., Nature, 2019][pv]), I decided to derive the implications of Weber's law in the coding of stimuli assuming a drift-difussion model. 
 Specifically, I'll show that under a simple drift-difussion model of decision-making, Weber's law implies that stimulus coding has to follow a power-law.
 
 ## Two-alternative choice perceptual tasks
@@ -125,21 +125,30 @@ These appear to be physiologically plausible, so they need to be considered an a
 Further, if $$ \gamma < 0 $$ the results above hold but the exponents are complex, so we obtain trigonometric functions instead of power-laws.
 Those solutions appear less physiologically plausible.
 
+## Comparison to Pardo-Vazquez et al. 2019
+The article by [Pardo-Vazquez et al.][pv] derives a similar result in the context of a principle they call TIED, which generalizes Weber's law and states that the effect of scale on decision making is equivalent to a time rescaling.
+Their result is stronger than the one shown here because it starts from a simpler assumption (just that the decision-making process can be modeled as a Continuous Markov Process, CMP) and derive the drift-difusion process with fixed barriers as described above as a consequence of TIED (strictly speaking, the fixed barriers drift-diffusion process is just one of two possible solutions they find). 
+On the flip side,  their derivation requires more work to achieve a result that contains the one I am showing here.
+
+Notably, the derivation in the article adds some further assumptions (on top of TIED and CMPs) to constrain the family of solutions found.
+One of those assumptions is that the two stimuli presented in a two-alternative task are coded by independent neural populations (as is assumed here).
+Thus, the proof presented clarifies that this independence assumption along with Weber's law is sufficient to reproduce some of their results, independently of TIED.
+Relatedly, the article does not find the solutions presented here corresponding to the cases of $$\gamma=0$$ and $$\gamma <0$$.
+As best as I can tell, this is because the TIED requirement imposes a stronger constraint than Weber's law on the solutions. 
+Specifically, TIED requires the exact same temporal rescaling for any given change in scale (e.g. if stimuli magnitude is increased tenfold, then decision time is halved regardless of what the original stimuli were), whereas Weber's law along with fixed-barriers drift-diffusion models only imply that there must exist a temporal rescaling, but that rescaling need not be simply a function of the change in magnitudes (e.g. if stimuli are increased tenfold from a magnitude of 1 to 10 then decision time is halved, but a tenfold increase from 10 to 100 may result in only a 10% reduction of decision time). 
+Whatever the case, I believe the derivation presented here has value because both drift-difussion models and Weber's law are well-accepted in the perceptual decision-making literature, and thus the coding result is implied under those two assumptions independently of TIED.  
 
 ## Final comments
-Here we've shown that **Weber's law implies power-law coding of stimuli in the nervous system under a simple decision-making model** (or at least that power-laws are part of a small subset of possible solutions).
+Here I've shown that **Weber's law implies power-law coding of stimuli in the nervous system under a simple decision-making model** (or at least that power-laws are part of a small subset of possible solutions).
 But does this type of coding actually happen in the brain? 
 
-That is what [Pardo-Vazquez et al.][pv] suggest. However, my own research seems to contradict this result: I could not fit both accuracy of responses and reaction times in a two-alternative leg-speed discrimination task (in preparation!) under a power-law coding assumption. 
-In short, it seems that the relative scaling of the drift and noise terms needed to fit the accuracy vs. reaction time curve is different from the ones that can be obtained under the power-law assumption.  
+That is what [Pardo-Vazquez et al.][pv] convincingly suggest through their experimental results on mice and men (actually, rats and both men and women). 
+However, my own research seems to contradict this result: I could not fit both accuracy of responses and reaction times in a two-alternative leg-speed discrimination task (in preparation!) under a power-law coding assumption. 
+Specifically, I was unable to fit the empirical accuracy vs. reaction time curve using this model.
+In short, it seems that the relative scaling of the drift and noise terms needed to fit this curve is different from the ones that can be obtained under the power-law assumption.  
+Because Weber's law has not been tested in the specific perceptual task I am using, it is possible that the whole framework simply does not apply. 
+Testing the validity of Weber's law and TIED in leg-speed discrimination tasks is on our lab's to-do list.
 
-It is worth noticing that the article by [Pardo-Vazquez et al.][pv] derives this result in the context of a more complex perceptual principle they call TIED that states that the effect of scale on decision making is equivalent to a time rescaling.
-Thus, their derivatin requires more work to achieve a result that contains the one I am showing here.
-On the flip side, their result is stronger because it starts from a simpler assumption (just that the decision-making process can be modeled as a Continuous Markov Process, CMP) and derive the drift-difussion process with fixed barriers as described above as a consequence of TIED. 
-Notably, the article does not find any of the alternative solutions presented here corresponding to the cases of $$\gamma=0$$ and $$\gamma <0$$.
-It is unclear to me if this is because those solutions are incompatible with TIED (which I find unlikely), or because they make additional/different assumptions from the ones used here. 
-
-Whatever the case, I believe the derivation presented here has value because both drift-difussion models and Weber's law are well-accepted in the perceptual decision-making literature, and thus the coding result is implied under those two assumptions independently of TIED.  
 
 [pv]: https://www.nature.com/articles/s41593-019-0439-7
 [wag]: https://link.springer.com/article/10.3758/BF03194023
