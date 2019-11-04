@@ -1,36 +1,14 @@
 ---
 layout: page
-title: About me
+title: about me
 permalink: /about/
 ---
 
-I was born in Montevideo, Uruguay. I hold a degree in Electrical Engineering (professional, 2009) and a a Master's in Electrical Engineering (2012) from the Universidad de la Rep\'ublica in Montevideo, Uruguay, and a PhD in Bioengineering from the University of Pittsburgh (2019). 
-I did my PhD work at Pitt's [Sensorimotor Learning Lab](http://www.engineering.pitt.edu/Sub-Sites/Labs/SML_Lab/_Content/Home/Homepage/) on the mathematical characterization of the dynamics of muscle activity and perception of belt-speed symmetry during split-belt treadmill walking adaptation.
+I was born in Montevideo, Uruguay. I hold a professional degree in Electrical Engineering and a Master's in Electrical Engineering from the Universidad de la República in Montevideo, Uruguay (2009 and 2012), and a PhD in Bioengineering from the University of Pittsburgh (2019). I also completed the graduate training program from the Center for the Neural Basis of Cognition, a joint center from Carnegie Mellon University and the University of Pittsburgh.
+I did my PhD work at Pitt's [Sensorimotor Learning Lab](http://www.engineering.pitt.edu/Sub-Sites/Labs/SML_Lab/_Content/Home/Homepage/) on the mathematical characterization of the dynamics of muscle activity and perception of belt-speed symmetry during split-belt treadmill walking adaptation.  
 
-I am interested in signal processing, machine learning, computational motor control and sensory characterization.
+I am now an Assitant Professor at the Department of Engineering of the Universidad Católica del Uruguay.
+My research focuses on the devolopment of mathematical models for motor control and adaptation processes, an interdisciplinary research area that draws from neuroscience, engineering, and movement science. Current research projects include the quantification of the extent of perceptual recalibration accompanying locomotor adaptation through the use of bayesian filters and Markov models, and the identification of maximum likelihood systems from locomotor adaptation data. He is also interested in machine learning, specifically in dimensionality reduction of electromyographic signals and other behavioral recordings.  
 
-You can find my [CV here](to be added)
-
-## This is an incomplete list of my publications
-
-Corrective Muscle Activity Reveals Subject-Specific Sensorimotor Recalibration (2019)
-[<i class="ai ai-biorxiv" style="color:gray"></i>](https://www.biorxiv.org/content/10.1101/372359v5)
-[eNeuro](https://www.eneuro.org/content/6/2/ENEURO.0358-18.2019)
-
-Cerebral contribution to the execution, but not recalibration, of motor commands in a novel walking environment (2019)
-[<i class="ai ai-biorxiv" style="color:gray"></i>](https://www.biorxiv.org/content/10.1101/686980v1)
-
-Augmenting cognitive load during split-belt walking increases the generalization of motor memories across walking contexts (2019)
-[<i class="ai ai-biorxiv" style="color:gray"></i>](https://www.biorxiv.org/content/10.1101/470930v1)
-
-Novel classifier scheme for imbalanced problems (2013)
-[Pattern Recognition Letters](https://www.sciencedirect.com/science/article/abs/pii/S0167865513000998)
-
-## Some tools that I like to use in my work
-- <i class="ai ai-overleaf" style="color:gray"></i> [Overleaf](http://www.overleaf.com)
-- <i class="ai ai-mendeley" style="color:gray"></i> [Mendeley](http://www.mendeley.com)
-- <i class="ai ai-figshare" style="color:gray"></i> [FigShare](http://www.figshare.org)
-- [GitKraken](http://www.gitkraken.com)
-- [Atom](http://www.atom.io)
-- [GitHub](https://www.github.io)
-
+You can find my [CV here](https://exportcvuy.anii.org.uy/cv/?ab6bc242b6fb67b0683ed37191b80aeba36199c4803fb3e22493f69802d3b62afe3ab42d3553e258fde83212920ede55645d6383b9373abfc6d41e49fe6ae120)  
+Check out my [neurogenealogy.](https://neurotree.org/neurotree/tree.php?pid=798486)  
