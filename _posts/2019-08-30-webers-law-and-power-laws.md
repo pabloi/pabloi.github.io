@@ -6,8 +6,8 @@ categories: proofs science perception
 ---
 
 
-After reading the article 'The mechanistic foundation of Weber's law' ([Pardo-Vazquez et al., Nature, 2019][pv]), I decided to derive the implications of Weber's law in the coding of stimuli assuming a drift-difussion model. 
-Specifically, I'll show that under a simple drift-difussion model of decision-making, Weber's law implies that stimulus coding has to follow a power-law.
+Inspired by the article 'The mechanistic foundation of Weber's law' ([Pardo-Vazquez et al., Nature, 2019][pv]), I decided to derive the implications of Weber's law in the coding of stimuli assuming a constant-barrier drift-difussion model of decision-making. 
+Specifically, I'll show that Weber's law implies that stimulus coding has to follow a power-law.
 
 ## Two-alternative choice perceptual tasks
 Two-alternative perceptual tasks are tasks in which a subject is asked some question about some stimuli, and can only answer one of two alternatives.
@@ -25,7 +25,7 @@ Suppose that the two alternatives are symmetric, such that we can assume the pro
 If we define $$ \lambda(s_1,s_2) = \frac{a}{b^2} $$, then the probability that subjects will choose the first alternative is:
 
 $$
-p(\text{choice}=1) = \frac{1}{1+e^{-\lambda}} 
+p(\text{choice}=1) = \frac{1}{1+e^{-2\lambda}} 
 $$
 
 See [Wagenmakers et al. 2007][wag] for more information on this model, including the distribution of reaction times on the task.
@@ -121,7 +121,7 @@ $$
 $$
 
 Note that for the special case $$\gamma=0$$ solutions are of the form $$f=A \text{log}(\bar{s}) + B$$, which results in $$r(s)= A\text{log}^2(s) + B \text{log}(s)$$, and $$\lambda = C \text{log} \delta$$ after imposing equivalence of stimuli.
-These appear to be physiologically plausible, so they need to be considered an alternative to the power-laws above.
+These appear to be physiologically plausible, so they need to be considered as an alternative to the power-laws above.
 Further, if $$ \gamma < 0 $$ the results above hold but the exponents are complex, so we obtain trigonometric functions instead of power-laws.
 Those solutions appear less physiologically plausible.
 
@@ -143,12 +143,14 @@ Here I've shown that **Weber's law implies power-law coding of stimuli in the ne
 But does this type of coding actually happen in the brain? 
 
 That is what [Pardo-Vazquez et al.][pv] convincingly suggest through their experimental results on mice and men (actually, rats and both men and women). 
-However, my own research seems to contradict this result: I could not fit both accuracy of responses and reaction times in a two-alternative leg-speed discrimination task (in preparation!) under a power-law coding assumption. 
-Specifically, I was unable to fit the empirical accuracy vs. reaction time curve using this model.
-In short, it seems that the relative scaling of the drift and noise terms needed to fit this curve is different from the ones that can be obtained under the power-law assumption.  
+However, my own research seems to contradict this result: I could only fit both accuracy of responses and reaction times in a two-alternative leg-speed discrimination task (in preparation!) under a power-law coding assumption with large positive exponents.
+Said exponents are unexpected (and unlikely) in a physiological setting.
 Because Weber's law has not been tested in the specific perceptual task I am using, it is possible that the whole framework simply does not apply. 
 Testing the validity of Weber's law and TIED in leg-speed discrimination tasks is on our lab's to-do list.
 
 
 [pv]: https://www.nature.com/articles/s41593-019-0439-7
 [wag]: https://link.springer.com/article/10.3758/BF03194023
+
+## Updates:
+On 30/11/2019 I fixed the formula for the probability of a correct response on the constant-barriers drift-diffusion model (was missing a 2!), and updated final comments regarding my experimental results.
