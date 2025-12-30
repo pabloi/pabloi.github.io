@@ -43,7 +43,7 @@ header_pages:
   - pubs.md
   - code.md
 
-# Build settings
+# Markdown settings
 markdown: kramdown
 
 kramdown:
