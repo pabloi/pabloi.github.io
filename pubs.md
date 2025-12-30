@@ -16,7 +16,8 @@ Marcela Gonzalez-Rubio, Gelsy Torres-Oviedo and Pablo A. Iturralde. *eNeuro.*
 
 **Development of an Interactive Tool for the Visualization and Training of Muscular Synergies.**
 Juan Antonio Gandolfo, Melissa Imbert and Pablo A. Iturralde. *IEEE URUCON 2024.*
-[<i class="ai ai-researchgate"></i>](https://www.researchgate.net/publication/388578449_Development_of_an_interactive_tool_for_the_visualization_and_training_of_muscular_synergies)
+[<i class="ai ai-doi"></i>](https://doi.org/10.1109/URUCON63440.2024.10850101)
+[<i class="ai ai-ieee"></i>](https://ieeexplore.ieee.org/document/10850101)
 
 ## 2020
 
