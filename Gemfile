@@ -1,7 +1,10 @@
 source "https://rubygems.org"
 
-# Jekyll 4.3+ is compatible with Ruby 3.x
-gem "jekyll", "~> 4.3"
+# Jekyll 4.3.x is compatible with Ruby 3.x and uses sassc
+gem "jekyll", "~> 4.3.0"
+
+# Use sassc instead of sass-embedded (compatibility with Docker container)
+gem "jekyll-sass-converter", "~> 2.0"
 
 # Theme
 gem "minima", "~> 2.5"
