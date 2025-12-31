@@ -37,7 +37,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Build settings
+# Navigation - explicitly list pages to show in header (excludes blog)
+header_pages:
+  - about.md
+  - pubs.md
+  - code.md
+
+# Markdown settings
 markdown: kramdown
 
 kramdown:
